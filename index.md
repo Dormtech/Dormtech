@@ -1,4 +1,4 @@
 # Dormtech
-##Creating the now
+## Creating the now
 
-COMING SOON
+### COMING SOON
