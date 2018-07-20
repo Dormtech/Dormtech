@@ -1,4 +1,4 @@
-# Website
+# Dormtech
 ## Creating the now
 
 ### About
