@@ -41,7 +41,7 @@ repo: Dormtech #github repository
 branch: master #branch
 relative_source: ../Dormtech/ #source directory
 destination: ../Dormtech-pages/ #destination directory
-production_url:  https://dormtech.ca/
+production_url:  http://dormtech.ca/
 source_url:  https://github.com/Dormtech/Dormtech #source repository url
 
 exclude:
