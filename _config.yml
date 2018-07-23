@@ -1,1 +1,55 @@
 theme: jekyll-theme-architect
+
+# Site settings
+title: Hanuman
+description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+cover: assets/images/radhakrishna.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+url: "http://dormtech.ca" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+# Social
+twitter: twitter
+github:  github
+
+#Additional Pages
+about: about
+contact: contact
+privacy-policy: privacy-policy
+
+permalink: /:title
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+# Settings for rake task
+safe: False
+lsi: False
+username: Dormtech #github username
+repo: Dormtech #github repository
+branch: master #branch
+relative_source: ../Dormtech/ #source directory
+destination: ../Dormtech-pages/ #destination directory
+production_url:  https://dormtech.ca/
+source_url:  https://github.com/Dormtech/Dormtech #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
