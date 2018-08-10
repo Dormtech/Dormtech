@@ -15,11 +15,10 @@
   </head>
 
   <body>
-    <p>Hey </p>
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1>Dormtech</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
@@ -35,6 +34,7 @@
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
+          <li><a href="mailto:dormtech.info@dormtech.ca"  style="color:grey">dormtech.info@dormtech.ca</a></li>
         </section>
 
         <aside id="sidebar">
